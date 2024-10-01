@@ -11027,9 +11027,66 @@ you can use the generic selector below, but it's slower:
 	margin: auto;
 }
 
+.lat-mb-4 {
+	margin-bottom: 1rem;
+}
+
+.lat-mb-5{
+	margin-bottom: 1.25rem;
+}
+
+.lat-mb-10{
+	margin-bottom: 2.5rem;
+}
+
 .lat-ml-4 {
 	margin-left: 1rem;
 }
+
+
+@media (min-width: 640px) {
+	.lat-sm\:m-0 {
+		margin: 0px;
+	}
+	.lat-sm\:m-auto {
+		margin: auto;
+	}
+	.lat-sm\:mb-4 {
+		margin-bottom: 1rem;
+	}
+	.lat-sm\:mb-5 {
+		margin-bottom: 1.25rem;
+	}
+	.lat-sm\:mb-10 {
+		margin-bottom: 2.5rem;
+	}
+	.lat-sm\:ml-4 {
+		margin-left: 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.lat-md\:m-0 {
+		margin: 0px;
+	}
+	.lat-md\:m-auto {
+		margin: auto;
+	}
+	.lat-md\:mb-4 {
+		margin-bottom: 1rem;
+	}
+	.lat-md\:mb-5 {
+		margin-bottom: 1.25rem;
+	}
+	.lat-md\:mb-10 {
+		margin-bottom: 2.5rem;
+	}
+	.lat-md\:ml-4 {
+		margin-left: 1rem;
+	}
+}
+
+
 
 .lat-p-1 {
 	padding: 0.25rem;
@@ -11650,6 +11707,10 @@ you can use the generic selector below, but it's slower:
 	max-width: 1150px;
 }
 
+.lat-max-h-\[250px\] {
+	max-height: 250px;
+}
+
 .lat-max-h-\[300px\] {
 	max-height: 300px;
 }
@@ -11672,4 +11733,8 @@ you can use the generic selector below, but it's slower:
 
 .lat-text-center {
 	text-align: center;
+}
+
+.lat-aspect-ratio-16-9 {
+	aspect-ratio: 16 / 9;
 }
