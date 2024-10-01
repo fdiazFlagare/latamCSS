@@ -11805,3 +11805,18 @@ you can use the generic selector below, but it's slower:
 	text-wrap: pretty;
 }
 
+.lat-z-1{
+	z-index: 1;
+}
+
+.lat-z-2{
+	z-index: 2;
+}
+
+.lat-bg-opacity-40 {
+    --tw-bg-opacity: 0.4;
+}
+
+.lat-bg-opacity-40 {
+    background-color: rgba(var(--tw-bg-opacity-color, 0, 0, 0), var(--tw-bg-opacity));
+}
