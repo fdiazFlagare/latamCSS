@@ -10720,6 +10720,9 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:flex {
 		display: flex;
 	}
+	.lat-sm\:grid {
+		display: grid;
+	}
 }
 @media (min-width: 768px) {
 	.lat-md\:block {
@@ -10731,6 +10734,9 @@ you can use the generic selector below, but it's slower:
 	.lat-md\:flex {
 		display: flex;
 	}
+	.lat-md\:grid {
+		display: grid;
+	}
 }
 @media (min-width: 1024px) {
 	.lat-lg\:block {
@@ -10741,6 +10747,9 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-lg\:flex {
 		display: flex;
+	}
+	.lat-lg\:grid {
+		display: grid;
 	}
 }
 @media (min-width: 1280px) {
@@ -11707,6 +11716,10 @@ you can use the generic selector below, but it's slower:
 	max-width: 1150px;
 }
 
+.lat-max-h-\[150px\] {
+	max-height: 150px;
+}
+
 .lat-max-h-\[250px\] {
 	max-height: 250px;
 }
@@ -11738,3 +11751,57 @@ you can use the generic selector below, but it's slower:
 .lat-aspect-ratio-16-9 {
 	aspect-ratio: 16 / 9;
 }
+
+
+.lat-bottom-0 {
+	bottom: 0;
+}
+.lat-bottom-1 {
+	bottom: 0.25rem;
+}
+
+.lat-bottom-2 {
+	bottom: 0.5rem;
+}
+.lat-bottom-3 {
+	bottom: 0.75rem;
+}
+
+.lat-bottom-4 {
+	bottom: 1rem;
+}
+
+.lat-top-0 {
+	top: 0;
+}
+.lat-top-4 {
+	top: 1rem;
+}
+
+.lat-left-0 {
+	left: 0;
+}
+.lat-left-4 {
+	left: 1rem;
+}
+
+.lat-right-0 {
+	right: 0;
+}
+.lat-right-4 {
+	right: 1rem;
+}
+
+.lat-wrap {
+	text-wrap: wrap;
+}
+.lat-nowrap {
+	text-wrap: nowrap;
+}
+.lat-balance {
+	text-wrap: balance;
+}
+.lat-pretty {
+	text-wrap: pretty;
+}
+
