@@ -10242,7 +10242,6 @@ you can use the generic selector below, but it's slower:
 	--lat-deep-black: #424b5a;
 	--lat-neutral-40: #586579;
 	--lat-deep-grey: #eeeeee;
-
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10603,8 +10602,8 @@ you can use the generic selector below, but it's slower:
 
 .lat-container {
 	max-width: 1440px;
-    margin: auto;
-    padding: 0 1.5rem;
+	margin: auto;
+	padding: 0 1.5rem;
 }
 
 .lat-block {
@@ -11134,14 +11133,55 @@ you can use the generic selector below, but it's slower:
 	line-height: 2rem;
 }
 
+.lat-text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+
+.lat-text-4xl {
+	font-size: 2.25rem;
+	line-height: 2.75rem;
+}
+
+.lat-text-5xl {
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+.lat-text-6xl {
+	font-size: 3.75rem;
+	line-height: 4.5rem;
+}
+
+.lat-text-7xl {
+	font-size: 4.5rem;
+	line-height: 5.5rem;
+}
+
 @media (min-width: 640px) {
 	.lat-sm\:text-base {
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
+	.last-sm\:text-2xl {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 	.lat-sm\:text-3xl {
 		font-size: 1.875rem;
 		line-height: 2.25rem;
+	}
+	.lat-sm\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+	.lat-sm\:text-5xl {
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
+	.lat-sm\:text-6xl {
+		font-size: 3.75rem;
+		line-height: 4.5rem;
 	}
 }
 @media (min-width: 768px) {
@@ -11149,9 +11189,25 @@ you can use the generic selector below, but it's slower:
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
+	.last-md\:text-2xl {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 	.lat-md\:text-3xl {
 		font-size: 1.875rem;
 		line-height: 2.25rem;
+	}
+	.lat-md\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+	.lat-md\:text-5xl {
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
+	.lat-md\:text-6xl {
+		font-size: 3.75rem;
+		line-height: 4.5rem;
 	}
 }
 .lat-font-thin {
@@ -11481,7 +11537,6 @@ you can use the generic selector below, but it's slower:
 	margin-top: 0px;
 }
 
-
 .lat-max-w-\[400px\] {
 	max-width: 400px;
 }
@@ -11493,43 +11548,25 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-max-w-\[1150px\] {
-    max-width: 1150px;
-}
-
-.lat-text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.75rem;
-}
-
-.lat-text-5xl {
-    font-size: 3rem;
-    line-height: 3.5rem;
-}
-
-.lat-text-6xl {
-    font-size: 3.75rem;
-    line-height: 4.5rem;
-}
-
-.lat-text-7xl {
-    font-size: 4.5rem;
-    line-height: 5.5rem;
+	max-width: 1150px;
 }
 
 .lat-max-h-\[300px\] {
-    max-height: 300px;
+	max-height: 300px;
 }
 
 .lat-max-h-\[400px\] {
-    max-height: 400px;
+	max-height: 400px;
 }
 
-
 .lat-rounded-br-\[40px\] {
-    border-bottom-right-radius: 40px;
-  }
-  
-  .lat-shadow-\[12px_12px_2px_1px_rgba\(36\,22\,162\,1\)\] {
-    box-shadow: 12px 12px 2px 1px rgba(36, 22, 162, 1);
-  }
+	border-bottom-right-radius: 40px;
+}
 
+.lat-shadow-\[12px_12px_0px_1px_rgba\(36\,22\,162\,1\)\] {
+	box-shadow: 12px 12px 0px 1px rgba(36, 22, 162, 1);
+}
+
+.lat-text-center {
+	text-align: center;
+}
