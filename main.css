@@ -10242,6 +10242,7 @@ you can use the generic selector below, but it's slower:
 	--lat-deep-black: #424b5a;
 	--lat-neutral-40: #586579;
 	--lat-deep-grey: #eeeeee;
+
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10601,7 +10602,9 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-container {
-	width: 1440px;
+	max-width: 1440px;
+    margin: auto;
+    padding: 0 1.5rem;
 }
 
 .lat-block {
@@ -11492,3 +11495,41 @@ you can use the generic selector below, but it's slower:
 .lat-max-w-\[1150px\] {
     max-width: 1150px;
 }
+
+.lat-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+
+.lat-text-5xl {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.lat-text-6xl {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+}
+
+.lat-text-7xl {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+}
+
+.lat-max-h-\[300px\] {
+    max-height: 300px;
+}
+
+.lat-max-h-\[400px\] {
+    max-height: 400px;
+}
+
+
+.lat-rounded-br-\[40px\] {
+    border-bottom-right-radius: 40px;
+  }
+  
+  .lat-shadow-\[12px_12px_2px_1px_rgba\(36\,22\,162\,1\)\] {
+    box-shadow: 12px 12px 2px 1px rgba(36, 22, 162, 1);
+  }
+
