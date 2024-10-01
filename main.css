@@ -11425,9 +11425,6 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
-.lat-gap-4 {
-	gap: 1rem; /* 16px */
-}
 
 [&>*:last-child]:lat-col-span-full > *:last-child {
 	grid-column: 1 / -1;
@@ -11467,6 +11464,13 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:gap-10 {
 		gap: 2.5rem;
 	}
+	.lat-sm\:gap-11 {
+		gap: 2.75rem;
+	}
+	.lat-sm\:gap-12 {
+		gap: 3rem;
+	}
+
 }
 
 @media (min-width: 768px) {
@@ -11502,6 +11506,12 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-md\:gap-10 {
 		gap: 2.5rem;
+	}
+	.lat-md\:gap-11 {
+		gap: 2.75rem;
+	}
+	.lat-md\:gap-12 {
+		gap: 3rem;
 	}
 }
 
