@@ -10721,7 +10721,7 @@ you can use the generic selector below, but it's slower:
 		display: flex;
 	}
 	.lat-sm\:grid {
-		display: grid;
+		display: grid !important;
 	}
 }
 @media (min-width: 768px) {
@@ -10735,7 +10735,7 @@ you can use the generic selector below, but it's slower:
 		display: flex;
 	}
 	.lat-md\:grid {
-		display: grid;
+		display: grid !important;
 	}
 }
 @media (min-width: 1024px) {
@@ -10749,7 +10749,7 @@ you can use the generic selector below, but it's slower:
 		display: flex;
 	}
 	.lat-lg\:grid {
-		display: grid;
+		display: grid !important;
 	}
 }
 @media (min-width: 1280px) {
