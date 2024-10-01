@@ -10536,12 +10536,32 @@ you can use the generic selector below, but it's slower:
 	gap: 1rem;
 }
 
+.lat-gap-5{
+	gap: 1.25rem;
+}
+
 .lat-gap-6 {
 	gap: 1.5rem;
 }
 
+.lat-gap-7 {
+	gap: 1.75rem;
+}
+
 .lat-gap-8 {
 	gap: 2rem;
+}
+
+.lat-gap-9 {
+	gap: 2.25rem;
+}
+
+.lat-gap-10 {
+	gap: 2.5rem;
+}
+
+.lat-gap-11 {
+	gap: 2.75rem;
 }
 
 .lat-gap-12 {
@@ -11128,6 +11148,11 @@ you can use the generic selector below, but it's slower:
 	line-height: 1.5rem;
 }
 
+.lat-text-xl {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
 .lat-text-2xl {
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -11163,7 +11188,11 @@ you can use the generic selector below, but it's slower:
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
-	.last-sm\:text-2xl {
+	.lat-sm\:text-xl {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}	
+	.lat-sm\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
 	}
@@ -11189,7 +11218,11 @@ you can use the generic selector below, but it's slower:
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
-	.last-md\:text-2xl {
+	.lat-md\:text-xl {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}	
+	.lat-md\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
 	}
@@ -11401,21 +11434,77 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
+	.lat-sm\:gap-0 {
+		gap: 0rem;
+	}
+	.lat-sm\:gap-1 {
+		gap: 0.25rem;
+	}
 	.lat-sm\:gap-2 {
 		gap: 0.5rem;
+	}
+	.lat-sm\:gap-3 {
+		gap: 0.75rem;
 	}
 	.lat-sm\:gap-4 {
 		gap: 1rem;
 	}
+	.lat-sm\:gap-5 {
+		gap: 1.25rem;
+	}
+	.lat-sm\:gap-6 {
+		gap: 1.5rem;
+	}
+	.lat-sm\:gap-7 {
+		gap: 1.75rem;
+	}
+	.lat-sm\:gap-8 {
+		gap: 2rem;
+	}
+	.lat-sm\:gap-9 {
+		gap: 2.25rem;
+	}
+	.lat-sm\:gap-10 {
+		gap: 2.5rem;
+	}
 }
+
 @media (min-width: 768px) {
+	.lat-md\:gap-0 {
+		gap: 0rem;
+	}
+	.lat-md\:gap-1 {
+		gap: 0.25rem;
+	}
 	.lat-md\:gap-2 {
 		gap: 0.5rem;
+	}
+	.lat-md\:gap-3 {
+		gap: 0.75rem;
 	}
 	.lat-md\:gap-4 {
 		gap: 1rem;
 	}
+	.lat-md\:gap-5 {
+		gap: 1.25rem;
+	}
+	.lat-md\:gap-6 {
+		gap: 1.5rem;
+	}
+	.lat-md\:gap-7 {
+		gap: 1.75rem;
+	}
+	.lat-md\:gap-8 {
+		gap: 2rem;
+	}
+	.lat-md\:gap-9 {
+		gap: 2.25rem;
+	}
+	.lat-md\:gap-10 {
+		gap: 2.5rem;
+	}
 }
+
 
 .lat-relative {
 	position: relative;
@@ -11557,6 +11646,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-max-h-\[400px\] {
 	max-height: 400px;
+}
+
+.lat-max-w-\[550px\] {
+	max-width: 550px;
 }
 
 .lat-rounded-br-\[40px\] {
