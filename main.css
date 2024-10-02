@@ -11099,6 +11099,10 @@ you can use the generic selector below, but it's slower:
 	margin-left: 1rem;
 }
 
+.lat-my-4 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
 @media (min-width: 640px) {
 	.lat-sm\:m-0 {
@@ -11618,15 +11622,35 @@ you can use the generic selector below, but it's slower:
 	.sm\:lat-grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
+	.sm\:lat-grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+	.sm\:lat-gridcols-4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+
+	}
+
 }
 
 @media (min-width: 768px) {
+	.md\:lat-grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
 	.md\:lat-grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+	.md\:lat-grid-cols-4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }
 
 @media (min-width: 1024px) {
+	.lg\:lat-grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.lg\:lat-grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
 	.lg\:lat-grid-cols-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
