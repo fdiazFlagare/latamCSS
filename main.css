@@ -10844,6 +10844,10 @@ you can use the generic selector below, but it's slower:
 	width: auto;
 }
 
+.lat-w-webkit-fill {
+	width: -webkit-fill-available;
+}
+
 .lat-w-full {
 	width: 100%;
 }
@@ -11179,6 +11183,10 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
+	.lat-sm\:p-0{
+		padding: 0px;
+	}
+
 	.lat-sm\:p-4 {
 		padding: 1rem;
 	}
@@ -11190,7 +11198,10 @@ you can use the generic selector below, but it's slower:
 	}
 }
 @media (min-width: 768px) {
-	.lat-sm\:p-4 {
+	.lat-md\:p-0 {
+		padding: 0px;
+	}
+	.lat-md\:p-4 {
 		padding: 1rem;
 	}
 	.lat-md\:p-8 {
@@ -11202,6 +11213,11 @@ you can use the generic selector below, but it's slower:
 }
 .lat-latam-icons {
 	font-family: 'Lato', system-ui;
+}
+
+.lat-text-xs {
+	font-size: 0.75rem;
+	line-height: 1rem;
 }
 
 .lat-text-sm {
@@ -11216,6 +11232,11 @@ you can use the generic selector below, but it's slower:
 
 .lat-text-xl {
 	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.lat-text-xl\.5{
+	font-size: 1.375rem;
 	line-height: 1.75rem;
 }
 
@@ -11257,6 +11278,10 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:text-xl {
 		font-size: 1.125rem;
 		line-height: 1.75rem;
+	}
+	.lat-sm\:text-xl\.5{
+		font-size: 1.375rem;
+		line-height: 1.75rem;
 	}	
 	.lat-sm\:text-2xl {
 		font-size: 1.5rem;
@@ -11286,6 +11311,10 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-md\:text-xl {
 		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+	.lat-md\:text-xl\.5{
+		font-size: 1.375rem;
 		line-height: 1.75rem;
 	}	
 	.lat-md\:text-2xl {
@@ -11432,6 +11461,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-text-primary-color-black {
 	color: var(--lat-deep-black);
+}
+
+.lat-text-neutral-40 {
+	color: var(--lat-neutral-40)
 }
 
 .lat-text-transparent {
@@ -11682,9 +11715,6 @@ you can use the generic selector below, but it's slower:
 	justify-content: center;
 }
 
-.lat-mt-2.5 {
-	margin-top: 10px;
-}
 
 .lat-rounded-full {
 	border-radius: 9999px;
@@ -11758,10 +11788,6 @@ you can use the generic selector below, but it's slower:
 	cursor: pointer;
 }
 
-.lat-text-xs {
-	font-size: 0.75rem;
-	line-height: 1rem;
-}
 
 .lat-mt-0 {
 	margin-top: 0px;
