@@ -11078,6 +11078,33 @@ you can use the generic selector below, but it's slower:
 .lat-m-0 {
 	margin: 0px;
 }
+.lat-m-1 {
+	margin: 0.25rem;
+}
+.lat-m-2{ 
+	margin: .5rem;
+}
+.lat-m-3 {
+	margin: 0.75rem;
+}
+.lat-m-4 {
+	margin: 1rem;
+}
+.lat-m-5{
+	margin: 1.25rem;
+}
+.lat-m-6{
+	margin: 1.5rem;
+}
+.lat-m-7{
+	margin: 1.75rem;
+}
+.lat-m-8 {
+	margin: 2rem;
+}
+
+
+
 
 .lat-m-auto {
 	margin: auto;
