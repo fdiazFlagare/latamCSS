@@ -6161,8 +6161,11 @@ html:not(#__):not(#___) .controls-visible .cadmin .portlet-topper-toolbar {
 	padding-left: 28px;
 }
 
-.portlet-borderless .portlet-content {
+/* .portlet-borderless .portlet-content {
 	padding: 1rem;
+} */
+.portlet-borderless .portlet-content {
+	padding: 1rem 0;
 }
 
 .portlet-decorate .portlet-content {
@@ -10242,6 +10245,7 @@ you can use the generic selector below, but it's slower:
 	--lat-deep-black: #424b5a;
 	--lat-neutral-40: #586579;
 	--lat-deep-grey: #eeeeee;
+	--lat-neutral-80: #dcdfe5;
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10263,6 +10267,14 @@ you can use the generic selector below, but it's slower:
 
 .lat-bg-deep-grey {
 	background-color: var(--lat-deep-grey);
+}
+
+.lat-bg-neutral-40 {
+	background-color: var(--lat-neutral-40);
+}
+
+.lat-bg-neutral-80 {
+	background-color: var(--lat-neutral-80);
 }
 
 .lat-bg-transparent {
@@ -10536,7 +10548,7 @@ you can use the generic selector below, but it's slower:
 	gap: 1rem;
 }
 
-.lat-gap-5{
+.lat-gap-5 {
 	gap: 1.25rem;
 }
 
@@ -10909,7 +10921,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-w-1\/2 {
-    width: 50%;
+	width: 50%;
 }
 
 .lat-w-1\/3 {
@@ -10935,11 +10947,11 @@ you can use the generic selector below, but it's slower:
 		width: 400px;
 	}
 	.lat-sm\:w-1\/2 {
-        width: 50%;
-    }
-    .lat-sm\:w-1\/3 {
-        width: 33.333333%;
-    }
+		width: 50%;
+	}
+	.lat-sm\:w-1\/3 {
+		width: 33.333333%;
+	}
 	.lat-sm\:w-2\/3 {
 		width: 66.666667%;
 	}
@@ -10959,11 +10971,11 @@ you can use the generic selector below, but it's slower:
 		width: 400px;
 	}
 	.lat-md\:w-1\/2 {
-        width: 50%;
-    }
-    .lat-md\:w-1\/3 {
-        width: 33.333333%;
-    }
+		width: 50%;
+	}
+	.lat-md\:w-1\/3 {
+		width: 33.333333%;
+	}
 	.lat-md\:w-2\/3 {
 		width: 66.666667%;
 	}
@@ -10971,9 +10983,6 @@ you can use the generic selector below, but it's slower:
 		width: 25%;
 	}
 }
-
-
-
 
 .lat-h-0 {
 	height: 0px;
@@ -11081,8 +11090,8 @@ you can use the generic selector below, but it's slower:
 .lat-m-1 {
 	margin: 0.25rem;
 }
-.lat-m-2{ 
-	margin: .5rem;
+.lat-m-2 {
+	margin: 0.5rem;
 }
 .lat-m-3 {
 	margin: 0.75rem;
@@ -11090,21 +11099,18 @@ you can use the generic selector below, but it's slower:
 .lat-m-4 {
 	margin: 1rem;
 }
-.lat-m-5{
+.lat-m-5 {
 	margin: 1.25rem;
 }
-.lat-m-6{
+.lat-m-6 {
 	margin: 1.5rem;
 }
-.lat-m-7{
+.lat-m-7 {
 	margin: 1.75rem;
 }
 .lat-m-8 {
 	margin: 2rem;
 }
-
-
-
 
 .lat-m-auto {
 	margin: auto;
@@ -11114,11 +11120,11 @@ you can use the generic selector below, but it's slower:
 	margin-bottom: 1rem;
 }
 
-.lat-mb-5{
+.lat-mb-5 {
 	margin-bottom: 1.25rem;
 }
 
-.lat-mb-10{
+.lat-mb-10 {
 	margin-bottom: 2.5rem;
 }
 
@@ -11172,8 +11178,6 @@ you can use the generic selector below, but it's slower:
 		margin-left: 1rem;
 	}
 }
-
-
 
 .lat-p-1 {
 	padding: 0.25rem;
@@ -11257,7 +11261,7 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
-	.lat-sm\:p-0{
+	.lat-sm\:p-0 {
 		padding: 0px;
 	}
 
@@ -11309,7 +11313,7 @@ you can use the generic selector below, but it's slower:
 	line-height: 1.75rem;
 }
 
-.lat-text-xl\.5{
+.lat-text-xl\.5 {
 	font-size: 1.375rem;
 	line-height: 1.75rem;
 }
@@ -11353,10 +11357,10 @@ you can use the generic selector below, but it's slower:
 		font-size: 1.125rem;
 		line-height: 1.75rem;
 	}
-	.lat-sm\:text-xl\.5{
+	.lat-sm\:text-xl\.5 {
 		font-size: 1.375rem;
 		line-height: 1.75rem;
-	}	
+	}
 	.lat-sm\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -11387,10 +11391,10 @@ you can use the generic selector below, but it's slower:
 		font-size: 1.125rem;
 		line-height: 1.75rem;
 	}
-	.lat-md\:text-xl\.5{
+	.lat-md\:text-xl\.5 {
 		font-size: 1.375rem;
 		line-height: 1.75rem;
-	}	
+	}
 	.lat-md\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -11508,11 +11512,6 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
-
-
-
-
-
 .lat-list-none {
 	list-style-type: none;
 }
@@ -11538,7 +11537,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-text-neutral-40 {
-	color: var(--lat-neutral-40)
+	color: var(--lat-neutral-40);
 }
 
 .lat-text-transparent {
@@ -11654,9 +11653,7 @@ you can use the generic selector below, but it's slower:
 	}
 	.sm\:lat-gridcols-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
-
 	}
-
 }
 
 @media (min-width: 768px) {
@@ -11682,7 +11679,6 @@ you can use the generic selector below, but it's slower:
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }
-
 
 [&>*:last-child]:lat-col-span-full > *:last-child {
 	grid-column: 1 / -1;
@@ -11728,7 +11724,6 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:gap-12 {
 		gap: 3rem;
 	}
-
 }
 
 @media (min-width: 768px) {
@@ -11773,7 +11768,6 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
-
 .lat-relative {
 	position: relative;
 }
@@ -11808,7 +11802,6 @@ you can use the generic selector below, but it's slower:
 .lat-justify-center {
 	justify-content: center;
 }
-
 
 .lat-rounded-full {
 	border-radius: 9999px;
@@ -11882,7 +11875,6 @@ you can use the generic selector below, but it's slower:
 	cursor: pointer;
 }
 
-
 .lat-mt-0 {
 	margin-top: 0px;
 }
@@ -11903,6 +11895,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-max-h-\[150px\] {
 	max-height: 150px;
+}
+
+.lat-max-h-\[200px\] {
+	max-height: 200px;
 }
 
 .lat-max-h-\[250px\] {
@@ -11943,7 +11939,6 @@ you can use the generic selector below, but it's slower:
 .lat-aspect-ratio-16-9 {
 	aspect-ratio: 16 / 9;
 }
-
 
 .lat-bottom-0 {
 	bottom: 0;
@@ -11997,18 +11992,21 @@ you can use the generic selector below, but it's slower:
 	text-wrap: pretty;
 }
 
-.lat-z-1{
+.lat-z-1 {
 	z-index: 1;
 }
 
-.lat-z-2{
+.lat-z-2 {
 	z-index: 2;
 }
 
 .lat-bg-opacity-40 {
-    --tw-bg-opacity: 0.4;
+	--tw-bg-opacity: 0.4;
 }
 
 .lat-bg-opacity-40 {
-    background-color: rgba(var(--tw-bg-opacity-color, 0, 0, 0), var(--tw-bg-opacity));
+	background-color: rgba(
+		var(--tw-bg-opacity-color, 0, 0, 0),
+		var(--tw-bg-opacity)
+	);
 }
