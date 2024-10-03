@@ -10746,13 +10746,13 @@ you can use the generic selector below, but it's slower:
 
 @media (min-width: 640px) {
 	.lat-sm\:block {
-		display: block;
+		display: block !important;
 	}
 	.lat-sm\:hidden {
-		display: none;
+		display: none !important;
 	}
 	.lat-sm\:flex {
-		display: flex;
+		display: flex !important;
 	}
 	.lat-sm\:grid {
 		display: grid !important;
@@ -10760,13 +10760,13 @@ you can use the generic selector below, but it's slower:
 }
 @media (min-width: 768px) {
 	.lat-md\:block {
-		display: block;
+		display: block !important;
 	}
 	.lat-md\:hidden {
-		display: none;
+		display: none !important;
 	}
 	.lat-md\:flex {
-		display: flex;
+		display: flex !important;
 	}
 	.lat-md\:grid {
 		display: grid !important;
@@ -10774,13 +10774,13 @@ you can use the generic selector below, but it's slower:
 }
 @media (min-width: 1024px) {
 	.lat-lg\:block {
-		display: block;
+		display: block !important;
 	}
 	.lat-lg\:hidden {
-		display: none;
+		display: none !important;
 	}
 	.lat-lg\:flex {
-		display: flex;
+		display: flex !important;
 	}
 	.lat-lg\:grid {
 		display: grid !important;
@@ -10788,12 +10788,12 @@ you can use the generic selector below, but it's slower:
 }
 @media (min-width: 1280px) {
 	.lat-xl\:block {
-		display: block;
+		display: block !important;
 	}
 }
 @media (min-width: 1536px) {
 	.lat-2xl\:block {
-		display: block;
+		display: block !important;
 	}
 }
 .lat-static {
@@ -12172,3 +12172,13 @@ you can use the generic selector below, but it's slower:
 .lat-strong\:font-bold strong {
   font-weight: 700;
 }
+
+
+
+
+
+
+
+
+
+
