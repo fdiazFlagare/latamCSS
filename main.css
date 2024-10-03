@@ -10245,7 +10245,8 @@ you can use the generic selector below, but it's slower:
 	--lat-deep-black: #424b5a;
 	--lat-neutral-40: #586579;
 	--lat-deep-grey: #eeeeee;
-	--lat-neutral-80: #dcdfe5;
+  --lat-neutral-80: #DCDFE5;
+
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10532,6 +10533,27 @@ you can use the generic selector below, but it's slower:
 		flex-direction: column-reverse;
 	}
 }
+
+@media (min-width: 1024px) {
+	.lat-lg\:flex-row {
+		flex-direction: row;
+	}
+
+	.lat-lg\:flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.lat-lg\:flex-col {
+		flex-direction: column;
+	}
+
+	.lat-lg\:flex-col-reverse {
+		flex-direction: column-reverse;
+	}
+}
+
+
+
 .lat-gap-2 {
 	gap: 0.5rem;
 }
@@ -10548,7 +10570,7 @@ you can use the generic selector below, but it's slower:
 	gap: 1rem;
 }
 
-.lat-gap-5 {
+.lat-gap-5{
 	gap: 1.25rem;
 }
 
@@ -10921,7 +10943,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-w-1\/2 {
-	width: 50%;
+    width: 50%;
 }
 
 .lat-w-1\/3 {
@@ -10947,11 +10969,11 @@ you can use the generic selector below, but it's slower:
 		width: 400px;
 	}
 	.lat-sm\:w-1\/2 {
-		width: 50%;
-	}
-	.lat-sm\:w-1\/3 {
-		width: 33.333333%;
-	}
+        width: 50%;
+    }
+    .lat-sm\:w-1\/3 {
+        width: 33.333333%;
+    }
 	.lat-sm\:w-2\/3 {
 		width: 66.666667%;
 	}
@@ -10971,11 +10993,11 @@ you can use the generic selector below, but it's slower:
 		width: 400px;
 	}
 	.lat-md\:w-1\/2 {
-		width: 50%;
-	}
-	.lat-md\:w-1\/3 {
-		width: 33.333333%;
-	}
+        width: 50%;
+    }
+    .lat-md\:w-1\/3 {
+        width: 33.333333%;
+    }
 	.lat-md\:w-2\/3 {
 		width: 66.666667%;
 	}
@@ -10983,6 +11005,9 @@ you can use the generic selector below, but it's slower:
 		width: 25%;
 	}
 }
+
+
+
 
 .lat-h-0 {
 	height: 0px;
@@ -11090,8 +11115,8 @@ you can use the generic selector below, but it's slower:
 .lat-m-1 {
 	margin: 0.25rem;
 }
-.lat-m-2 {
-	margin: 0.5rem;
+.lat-m-2{ 
+	margin: .5rem;
 }
 .lat-m-3 {
 	margin: 0.75rem;
@@ -11099,18 +11124,21 @@ you can use the generic selector below, but it's slower:
 .lat-m-4 {
 	margin: 1rem;
 }
-.lat-m-5 {
+.lat-m-5{
 	margin: 1.25rem;
 }
-.lat-m-6 {
+.lat-m-6{
 	margin: 1.5rem;
 }
-.lat-m-7 {
+.lat-m-7{
 	margin: 1.75rem;
 }
 .lat-m-8 {
 	margin: 2rem;
 }
+
+
+
 
 .lat-m-auto {
 	margin: auto;
@@ -11120,11 +11148,11 @@ you can use the generic selector below, but it's slower:
 	margin-bottom: 1rem;
 }
 
-.lat-mb-5 {
+.lat-mb-5{
 	margin-bottom: 1.25rem;
 }
 
-.lat-mb-10 {
+.lat-mb-10{
 	margin-bottom: 2.5rem;
 }
 
@@ -11178,6 +11206,8 @@ you can use the generic selector below, but it's slower:
 		margin-left: 1rem;
 	}
 }
+
+
 
 .lat-p-1 {
 	padding: 0.25rem;
@@ -11261,7 +11291,7 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
-	.lat-sm\:p-0 {
+	.lat-sm\:p-0{
 		padding: 0px;
 	}
 
@@ -11313,7 +11343,7 @@ you can use the generic selector below, but it's slower:
 	line-height: 1.75rem;
 }
 
-.lat-text-xl\.5 {
+.lat-text-xl\.5{
 	font-size: 1.375rem;
 	line-height: 1.75rem;
 }
@@ -11357,10 +11387,10 @@ you can use the generic selector below, but it's slower:
 		font-size: 1.125rem;
 		line-height: 1.75rem;
 	}
-	.lat-sm\:text-xl\.5 {
+	.lat-sm\:text-xl\.5{
 		font-size: 1.375rem;
 		line-height: 1.75rem;
-	}
+	}	
 	.lat-sm\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -11391,10 +11421,10 @@ you can use the generic selector below, but it's slower:
 		font-size: 1.125rem;
 		line-height: 1.75rem;
 	}
-	.lat-md\:text-xl\.5 {
+	.lat-md\:text-xl\.5{
 		font-size: 1.375rem;
 		line-height: 1.75rem;
-	}
+	}	
 	.lat-md\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -11512,6 +11542,11 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
+
+
+
+
+
 .lat-list-none {
 	list-style-type: none;
 }
@@ -11537,8 +11572,9 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-text-neutral-40 {
-	color: var(--lat-neutral-40);
+	color: var(--lat-neutral-40)
 }
+
 
 .lat-text-transparent {
 	color: transparent;
@@ -11628,6 +11664,123 @@ you can use the generic selector below, but it's slower:
 	overflow: hidden;
 }
 
+@media (min-width: 640px) {
+	.lat-sm\:line-clamp-1 {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-3 {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-4 {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-5 {
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-6 {
+		display: -webkit-box;
+		-webkit-line-clamp: 6;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-7 {
+		display: -webkit-box;
+		-webkit-line-clamp: 7;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-sm\:line-clamp-8 {
+		display: -webkit-box;
+		-webkit-line-clamp: 8;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+}
+
+@media (min-width: 768px) {
+	.lat-md\:line-clamp-1 {
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-3 {
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-4 {
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-5 {
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-6 {
+		display: -webkit-box;
+		-webkit-line-clamp: 6;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-7 {
+		display: -webkit-box;
+		-webkit-line-clamp: 7;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.lat-md\:line-clamp-8 {
+		display: -webkit-box;
+		-webkit-line-clamp: 8;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+}
+
+
 .lat-object-cover {
 	object-fit: cover;
 }
@@ -11645,40 +11798,43 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
-	.sm\:lat-grid-cols-2 {
+	.lat-sm\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
-	.sm\:lat-grid-cols-3 {
+	.lat-sm\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-	.sm\:lat-gridcols-4 {
+	.lat-sm\:gridcols-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
+
 	}
+
 }
 
 @media (min-width: 768px) {
-	.md\:lat-grid-cols-2 {
+	.lat-md\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
-	.md\:lat-grid-cols-3 {
+	.lat-md\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-	.md\:lat-grid-cols-4 {
+	.lat-md\:grid-cols-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }
 
 @media (min-width: 1024px) {
-	.lg\:lat-grid-cols-2 {
+	.lat-lg\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
-	.lg\:lat-grid-cols-3 {
+	.lat-lg\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-	.lg\:lat-grid-cols-4 {
+	.lat-lg\:grid-cols-4 {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 }
+
 
 [&>*:last-child]:lat-col-span-full > *:last-child {
 	grid-column: 1 / -1;
@@ -11724,6 +11880,7 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:gap-12 {
 		gap: 3rem;
 	}
+
 }
 
 @media (min-width: 768px) {
@@ -11768,6 +11925,7 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
+
 .lat-relative {
 	position: relative;
 }
@@ -11802,6 +11960,7 @@ you can use the generic selector below, but it's slower:
 .lat-justify-center {
 	justify-content: center;
 }
+
 
 .lat-rounded-full {
 	border-radius: 9999px;
@@ -11875,6 +12034,7 @@ you can use the generic selector below, but it's slower:
 	cursor: pointer;
 }
 
+
 .lat-mt-0 {
 	margin-top: 0px;
 }
@@ -11898,7 +12058,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-max-h-\[200px\] {
-	max-height: 200px;
+  max-height: 200px;
 }
 
 .lat-max-h-\[250px\] {
@@ -11939,6 +12099,7 @@ you can use the generic selector below, but it's slower:
 .lat-aspect-ratio-16-9 {
 	aspect-ratio: 16 / 9;
 }
+
 
 .lat-bottom-0 {
 	bottom: 0;
@@ -11992,21 +12153,22 @@ you can use the generic selector below, but it's slower:
 	text-wrap: pretty;
 }
 
-.lat-z-1 {
+.lat-z-1{
 	z-index: 1;
 }
 
-.lat-z-2 {
+.lat-z-2{
 	z-index: 2;
 }
 
 .lat-bg-opacity-40 {
-	--tw-bg-opacity: 0.4;
+    --tw-bg-opacity: 0.4;
 }
 
 .lat-bg-opacity-40 {
-	background-color: rgba(
-		var(--tw-bg-opacity-color, 0, 0, 0),
-		var(--tw-bg-opacity)
-	);
+    background-color: rgba(var(--tw-bg-opacity-color, 0, 0, 0), var(--tw-bg-opacity));
+}
+
+.lat-strong\:font-bold strong {
+  font-weight: 700;
 }
