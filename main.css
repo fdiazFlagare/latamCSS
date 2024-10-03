@@ -11207,7 +11207,9 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
-
+.lat-p-0 {
+	padding: 0px;
+}
 
 .lat-p-1 {
 	padding: 0.25rem;
@@ -11289,6 +11291,24 @@ you can use the generic selector below, but it's slower:
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+
+.lat-pb-1{
+	padding-bottom: 0.25rem;
+}
+
+.lat-pb-2 {
+	padding-bottom: 0.5rem;
+}
+
+.lat-pb-3 {
+	padding-bottom: 0.75rem;
+}
+
+.lat-pb-4 {
+	padding-bottom: 1rem;
+}
+
+
 
 @media (min-width: 640px) {
 	.lat-sm\:p-0{
