@@ -12111,7 +12111,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-max-w-\[999px\] {
-	width: 999px;
+	max-width: 999px;
 }
 
 .lat-max-w-\[1150px\] {
