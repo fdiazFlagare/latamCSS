@@ -10246,6 +10246,8 @@ you can use the generic selector below, but it's slower:
 	--lat-neutral-40: #586579;
 	--lat-deep-grey: #eeeeee;
 	--lat-neutral-80: #dcdfe5;
+
+	--lat-primary-blue-90: #F0F7FF;
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10275,6 +10277,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-bg-neutral-80 {
 	background-color: var(--lat-neutral-80);
+}
+
+.lat-bg-primary-blue-90 {
+	background-color: var(--lat-primary-blue-90);
 }
 
 .lat-bg-transparent {
@@ -11626,6 +11632,10 @@ you can use the generic selector below, but it's slower:
 	color: var(--lat-deep-black);
 }
 
+.lat-text-color-primary-blue-2 {
+	color: var(--lat-deep-2-violet);
+}
+
 .lat-text-transparent {
 	color: transparent;
 }
@@ -12100,8 +12110,16 @@ you can use the generic selector below, but it's slower:
 	max-width: 600px;
 }
 
+.lat-max-w-\[999px\] {
+	width: 999px;
+}
+
 .lat-max-w-\[1150px\] {
 	max-width: 1150px;
+}
+
+.lat-max-w-\[1344px\] {
+	max-width: 1344px;
 }
 
 .lat-max-h-\[150px\] {
@@ -12224,4 +12242,58 @@ you can use the generic selector below, but it's slower:
 
 .lat-strong\:font-bold strong {
 	font-weight: 700;
+}
+
+.lat-pagination-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+	margin-top: 1rem;
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+}
+
+.lat-pagination-container li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    padding: 0.25rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    border: none; 
+	cursor: pointer;
+}
+
+.lat-pagination-container li.selected a {
+	color: #ffffff;
+	background-color: #ec1c51; 
+
+}
+.lat-pagination-container a:not(.selected) {
+	color: #1A005E;
+	background-color: #ffffff;
+}
+
+.lat-no-underline {
+    text-decoration-line: none;
+}
+
+.lat-text-inherit {
+    color: inherit;
+}
+
+.lat-hover\:no-underline:hover {
+    text-decoration-line: none;
+}
+
+.lat-focus\:no-underline:focus {
+    text-decoration-line: none;
+}
+
+.lat-active\:no-underline:active {
+    text-decoration-line: none;
 }
