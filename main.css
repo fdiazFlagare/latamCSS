@@ -12316,3 +12316,12 @@ you can use the generic selector below, but it's slower:
 .lat-active\:no-underline:active {
     text-decoration-line: none;
 }
+
+
+.lat-rotate-180 {
+	transform: rotate(180deg);
+}
+
+.lat-rotate-90 {
+	transform: rotate(90deg);
+}
