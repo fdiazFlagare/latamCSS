@@ -12068,6 +12068,8 @@ you can use the generic selector below, but it's slower:
 	border-width: 2px;
 }
 
+.lat-border-r-0	{border-right-width: 0px;}
+
 .lat-border-solid {
 	border-style: solid;
 }
@@ -12163,6 +12165,14 @@ you can use the generic selector below, but it's slower:
 
 .lat-text-center {
 	text-align: center;
+}
+
+.lat-text-right{
+	text-align: right;
+}
+
+.lat-text-left{
+	text-align: left;
 }
 
 .lat-aspect-ratio-16-9 {
