@@ -11048,6 +11048,11 @@ you can use the generic selector below, but it's slower:
 	}
 }
 @media (min-width: 768px) {
+	.lat-md\:w-fit{
+		width: fit-content;
+	}
+
+
 	.lat-md\:w-auto {
 		width: auto;
 	}
@@ -12180,6 +12185,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-max-w\[100px\]{
 	max-width: 100px;
+}
+
+.lat-max-w\[250px\]{
+	max-width: 250px;
 }
 
 .lat-max-w-\[300px\] {
