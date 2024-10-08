@@ -10299,6 +10299,10 @@ you can use the generic selector below, but it's slower:
 	border-radius: 0px;
 }
 
+.lat-rounded-xs{
+	border-radius: 0.063rem;
+}
+
 .lat-rounded-sm {
 	border-radius: 0.125rem;
 }
@@ -10668,6 +10672,7 @@ you can use the generic selector below, but it's slower:
 	justify-content: stretch;
 }
 
+
 .lat-cursor-auto {
 	cursor: auto;
 }
@@ -10787,6 +10792,15 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:grid {
 		display: grid !important;
 	}
+	.lat-sm\:justify-between{
+		justify-content: space-between;
+	}
+	.lat-sm\:justify-normal{
+		justify-content: normal;
+	}
+	.lat-sm\:justify-center{
+		justify-content: center;
+	}
 }
 @media (min-width: 768px) {
 	.lat-md\:block {
@@ -10801,6 +10815,15 @@ you can use the generic selector below, but it's slower:
 	.lat-md\:grid {
 		display: grid !important;
 	}
+	.lat-md\:justify-between{
+		justify-content: space-between;
+	}
+	.lat-md\:justify-normal{
+		justify-content: normal;
+	}
+	.lat-md\:justify-center{
+		justify-content: center;
+	}
 }
 @media (min-width: 1024px) {
 	.lat-lg\:block {
@@ -10814,6 +10837,15 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-lg\:grid {
 		display: grid !important;
+	}
+	.lat-lg\:justify-between{
+		justify-content: space-between;
+	}
+	.lat-lg\:justify-normal{
+		justify-content: normal;
+	}
+	.lat-lg\:justify-center{
+		justify-content: center;
 	}
 }
 @media (min-width: 1280px) {
@@ -11332,6 +11364,16 @@ you can use the generic selector below, but it's slower:
 	padding-bottom: 1rem;
 }
 
+.lat-py-8{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.lat-py-9{
+	padding-top: 2.25rem;
+	padding-bottom: 2.25rem;
+}
+
 .lat-py-10 {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
@@ -11376,6 +11418,16 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:min-h-\[400px\] {
 		height: 400px;
 	}
+
+	.lat-sm\:px-0{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.lat-sm\:py-8 {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
 }
 @media (min-width: 768px) {
 	.lat-md\:p-0 {
@@ -11389,6 +11441,15 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-md\:min-h-\[400px\] {
 		height: 400px;
+	}
+
+	.lat-md\:px-0{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.lat-md\:py-8 {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 }
 .lat-latam-icons {
