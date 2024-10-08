@@ -11421,6 +11421,10 @@ you can use the generic selector below, but it's slower:
 	.lat-sm\:p-4 {
 		padding: 1rem !important;
 	}
+	.lat-sm\:p-6 {
+		padding: 1.5rem !important;
+	}
+
 	.lat-sm\:p-8 {
 		padding: 2rem !important;
 	}
@@ -11444,6 +11448,9 @@ you can use the generic selector below, but it's slower:
 	}
 	.lat-md\:p-4 {
 		padding: 1rem !important;
+	}
+	.lat-md\:p-6 {
+		padding: 1.5rem !important;
 	}
 	.lat-md\:p-8 {
 		padding: 2rem !important;
