@@ -11415,50 +11415,50 @@ you can use the generic selector below, but it's slower:
 
 @media (min-width: 640px) {
 	.lat-sm\:p-0 {
-		padding: 0px;
+		padding: 0px !important;
 	}
 
 	.lat-sm\:p-4 {
-		padding: 1rem;
+		padding: 1rem !important;
 	}
 	.lat-sm\:p-8 {
-		padding: 2rem;
+		padding: 2rem !important;
 	}
 	.lat-sm\:min-h-\[400px\] {
 		height: 400px;
 	}
 
 	.lat-sm\:px-0{
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
 	}
 
 	.lat-sm\:py-8 {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
 	}
 }
 @media (min-width: 768px) {
 	.lat-md\:p-0 {
-		padding: 0px;
+		padding: 0px !important;
 	}
 	.lat-md\:p-4 {
-		padding: 1rem;
+		padding: 1rem !important;
 	}
 	.lat-md\:p-8 {
-		padding: 2rem;
+		padding: 2rem !important;
 	}
 	.lat-md\:min-h-\[400px\] {
 		height: 400px;
 	}
 
 	.lat-md\:px-0{
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
 	}
 	.lat-md\:py-8 {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
 	}
 }
 
@@ -12246,6 +12246,10 @@ you can use the generic selector below, but it's slower:
 }
 .lat-max-w-\[550px\] {
 	max-width: 550px;
+}
+
+.lat-h-\[250px\]{
+	height: 250px;
 }
 
 .lat-rounded-br-\[40px\] {
