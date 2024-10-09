@@ -11451,6 +11451,12 @@ you can use the generic selector below, but it's slower:
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
 	}
+
+	.lat-sm\:px-24{
+		padding-left: 6rem !important;
+		padding-right: 6rem !important;	
+	}
+
 	.lat-sm\:px-32{
 		padding-left: 8rem !important;
 		padding-right: 8rem !important;
@@ -11486,6 +11492,11 @@ you can use the generic selector below, but it's slower:
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
 	}
+	.lat-md\:py-24{
+		padding-top: 6rem !important;
+		padding-bottom: 6rem !important;
+	}
+
 	.lat-md\:px-32{
 		padding-left: 8rem !important;
 		padding-right: 8rem !important;
@@ -11531,6 +11542,11 @@ you can use the generic selector below, but it's slower:
 	line-height: 2rem;
 }
 
+.lat-text-2xl\.5{
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+}
+
 .lat-text-3xl {
 	font-size: 1.875rem;
 	line-height: 2.25rem;
@@ -11573,6 +11589,11 @@ you can use the generic selector below, but it's slower:
 		font-size: 1.5rem;
 		line-height: 2rem;
 	}
+	.lat-sm\:text-2xl\.5{
+		font-size: 1.75rem;
+		line-height: 2.25rem;
+	}
+
 	.lat-sm\:text-3xl {
 		font-size: 1.875rem;
 		line-height: 2.25rem;
@@ -11606,6 +11627,10 @@ you can use the generic selector below, but it's slower:
 	.lat-md\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
+	}
+	.lat-md\:text-2xl\.5{
+		font-size: 1.75rem;
+		line-height: 2.25rem;
 	}
 	.lat-md\:text-3xl {
 		font-size: 1.875rem;
