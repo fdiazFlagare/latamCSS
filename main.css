@@ -11488,8 +11488,13 @@ you can use the generic selector below, but it's slower:
 	line-height: 1.5rem;
 }
 
-.lat-text-xl {
+.lat-text-lg {
 	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.lat-text-xl {
+	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
 
