@@ -12511,3 +12511,7 @@ you can use the generic selector below, but it's slower:
 .lat-rotate-90 {
 	transform: rotate(90deg);
 }
+
+.lat-box-shadow-box-type-a {
+	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+}
