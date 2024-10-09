@@ -11353,6 +11353,11 @@ you can use the generic selector below, but it's slower:
 	padding-right: 6rem;
 }
 
+.lat-px-32{
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
 .lat-py-1 {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
@@ -11437,15 +11442,29 @@ you can use the generic selector below, but it's slower:
 		padding-right: 0px !important;
 	}
 
+	.lat-sm\:py-0{
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
 	.lat-sm\:py-8 {
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
+	}
+	.lat-sm\:px-32{
+		padding-left: 8rem !important;
+		padding-right: 8rem !important;
 	}
 }
 @media (min-width: 768px) {
 	.lat-md\:p-0 {
 		padding: 0px !important;
 	}
+	.lat-md\:py-0{
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
 	.lat-md\:p-4 {
 		padding: 1rem !important;
 	}
@@ -11466,6 +11485,10 @@ you can use the generic selector below, but it's slower:
 	.lat-md\:py-8 {
 		padding-top: 2rem !important;
 		padding-bottom: 2rem !important;
+	}
+	.lat-md\:px-32{
+		padding-left: 8rem !important;
+		padding-right: 8rem !important;
 	}
 }
 
