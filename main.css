@@ -11411,6 +11411,16 @@ you can use the generic selector below, but it's slower:
 	padding-bottom: 1rem;
 }
 
+.lat-py-5 {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+
+.lat-py-6 {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
 .lat-py-8{
 	padding-top: 2rem;
 	padding-bottom: 2rem;
