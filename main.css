@@ -10248,6 +10248,7 @@ you can use the generic selector below, but it's slower:
 	--lat-neutral-80: #dcdfe5;
 
 	--lat-primary-blue-90: #F0F7FF;
+	--lat-neutral-20: #DEDEDE;
 }
 
 /*** LATAM BREAKPOINTS ***/
@@ -10269,6 +10270,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-bg-deep-grey {
 	background-color: var(--lat-deep-grey);
+}
+
+.lat-bg-neutral-20 {
+	background-color: var(--lat-neutral-20);
 }
 
 .lat-bg-neutral-40 {
@@ -10293,6 +10298,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-bg-white {
 	background-color: rgb(255, 255, 255);
+}
+
+.lat-bg-line {
+    background-color: #b8b8b8;
 }
 
 .lat-rounded-none {
