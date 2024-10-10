@@ -10428,6 +10428,10 @@ you can use the generic selector below, but it's slower:
 	border-style: none;
 }
 
+.lat-border-neutral {
+	border-color: var(--lat-neutral-80);
+}
+
 .lat-border-primary-blue {
 	border-color: var(--lat-deep-violet);
 }
