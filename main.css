@@ -11475,6 +11475,10 @@ you can use the generic selector below, but it's slower:
 	padding-left: 1rem;
 }
 
+.lat-pt-4{
+	padding-top: 1rem;
+}
+
 @media (min-width: 640px) {
 	.lat-sm\:p-0 {
 		padding: 0px !important;
