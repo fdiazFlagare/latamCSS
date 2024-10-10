@@ -10344,9 +10344,19 @@ you can use the generic selector below, but it's slower:
 	border-radius: 9999px;
 }
 
+.lat-rounded-r {
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
 .lat-rounded-r-lg {
 	border-top-right-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
+}
+
+.lat-rounded-l {
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
 }
 
 .lat-rounded-l-lg {
@@ -10416,6 +10426,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-border-none {
 	border-style: none;
+}
+
+.lat-border-neutral {
+	border-color: var(--lat-neutral-80);
 }
 
 .lat-border-primary-blue {
@@ -10604,11 +10618,6 @@ you can use the generic selector below, but it's slower:
 .lat-gap-2 {
 	gap: 0.5rem;
 }
-
-.lat-gap-2.5 {
-	gap: 0.625rem;
-}
-
 .lat-gap-3 {
 	gap: 0.75rem;
 }
@@ -10937,10 +10946,6 @@ you can use the generic selector below, but it's slower:
 	width: 0.5rem;
 }
 
-.lat-w-2.5 {
-	width: 0.625rem;
-}
-
 .lat-w-3 {
 	width: 0.75rem;
 }
@@ -11224,6 +11229,10 @@ you can use the generic selector below, but it's slower:
 
 .lat-mb-5 {
 	margin-bottom: 1.25rem;
+}
+
+.lat-mb-6 {
+	margin-bottom: 1.5rem;
 }
 
 .lat-mb-10 {
@@ -12221,11 +12230,6 @@ you can use the generic selector below, but it's slower:
 	background-color: #ccc;
 }
 
-.lat-mx-1.25 {
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
 .lat-cursor-pointer {
 	cursor: pointer;
 }
@@ -12558,3 +12562,4 @@ you can use the generic selector below, but it's slower:
 .lat-box-shadow-box-type-a {
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
 }
+
