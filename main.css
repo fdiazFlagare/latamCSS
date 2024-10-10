@@ -11098,10 +11098,6 @@ you can use the generic selector below, but it's slower:
 	height: 0.5rem;
 }
 
-.lat-h-2.5 {
-	height: 0.625rem;
-}
-
 .lat-h-3 {
 	height: 0.75rem;
 }
@@ -12388,6 +12384,34 @@ you can use the generic selector below, but it's slower:
 .lat-text-left{
 	text-align: left;
 }
+
+
+@media (min-width: 640px) {
+	.lat-sm\:text-center {
+		text-align: center;
+	}
+	.lat-sm\:text-right {
+		text-align: right;
+	}
+	.lat-sm\:text-left {
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) {
+	.lat-md\:text-center {
+		text-align: center;
+	}
+	.lat-md\:text-right {
+		text-align: right;
+	}
+	.lat-md\:text-left {
+		text-align: left;
+	}
+}
+
+
+
 
 .lat-aspect-ratio-16-9 {
 	aspect-ratio: 16 / 9;
