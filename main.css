@@ -11635,6 +11635,10 @@ you can use the generic selector below, but it's slower:
 }
 
 @media (min-width: 640px) {
+	.lat-sm\:text-xs {
+		font-size: 0.75rem;
+		line-height: 1rem;
+	}
 	.lat-sm\:text-base {
 		font-size: 1rem;
 		line-height: 1.5rem;
@@ -11674,6 +11678,10 @@ you can use the generic selector below, but it's slower:
 	}
 }
 @media (min-width: 768px) {
+	.lat-md\:text-xs {
+		font-size: 0.75rem;
+		line-height: 1rem;
+	}
 	.lat-md\:text-base {
 		font-size: 1rem;
 		line-height: 1.5rem;
