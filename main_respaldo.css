@@ -10617,6 +10617,12 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
+.lat-gap-2\.5 {
+	gap: 0.625rem;
+}
+
+
+
 .lat-gap-2 {
 	gap: 0.5rem;
 }
