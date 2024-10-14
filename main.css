@@ -11372,7 +11372,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .lat-pl-2 {
-	padding-right: 0.5rem;
+	padding-left: 0.5rem;
 }
 
 .lat-pr-12 {
