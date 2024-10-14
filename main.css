@@ -11014,6 +11014,10 @@ you can use the generic selector below, but it's slower:
 	width: 400px;
 }
 
+.lat-w-\[600px\] {
+	width: 600px;
+}
+
 .lat-w-\[999px\] {
 	width: 999px;
 }
@@ -12586,4 +12590,5 @@ you can use the generic selector below, but it's slower:
 .lat-box-shadow-box-type-a {
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
 }
+
 
