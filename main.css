@@ -12477,6 +12477,11 @@ you can use the generic selector below, but it's slower:
 .lat-left-0 {
 	left: 0;
 }
+
+.lat-left-auto {
+	left: auto;
+}
+
 .lat-left-4 {
 	left: 1rem;
 }
