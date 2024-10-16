@@ -12604,4 +12604,10 @@ you can use the generic selector below, but it's slower:
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
 }
 
+.lat-tabs-result {
+    border-bottom: 0;
+}
 
+.lat-tabs-result.active {
+    border-bottom: 2px solid var(--lat-red-pink);
+}
