@@ -12611,3 +12611,11 @@ you can use the generic selector below, but it's slower:
 .lat-tabs-result.active {
     border-bottom: 2px solid var(--lat-red-pink);
 }
+
+.lat-pagination-container ul {
+	display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
