@@ -11014,6 +11014,10 @@ you can use the generic selector below, but it's slower:
 	width: 400px;
 }
 
+.lat-w-\[600px\] {
+	width: 600px;
+}
+
 .lat-w-\[999px\] {
 	width: 999px;
 }
@@ -11365,6 +11369,14 @@ you can use the generic selector below, but it's slower:
 
 .lat-p-8 {
 	padding: 2rem;
+}
+
+.lat-pl-2 {
+	padding-left: 0.5rem;
+}
+
+.lat-pr-12 {
+	padding-right: 3rem;
 }
 
 
@@ -12358,6 +12370,10 @@ you can use the generic selector below, but it's slower:
 	max-width: 1344px;
 }
 
+.lat-max-w-\[1440px\] {
+	max-width: 1440px;
+}
+
 .lat-max-h-\[150px\] {
 	max-height: 150px;
 }
@@ -12473,6 +12489,11 @@ you can use the generic selector below, but it's slower:
 .lat-left-0 {
 	left: 0;
 }
+
+.lat-left-auto {
+	left: auto;
+}
+
 .lat-left-4 {
 	left: 1rem;
 }
@@ -12587,3 +12608,18 @@ you can use the generic selector below, but it's slower:
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
 }
 
+.lat-tabs-result {
+    border-bottom: 0;
+}
+
+.lat-tabs-result.active {
+    border-bottom: 2px solid var(--lat-red-pink);
+}
+
+.lat-pagination-container ul {
+	display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
