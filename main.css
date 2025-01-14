@@ -9365,3 +9365,7 @@ a:hover {
 
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
+
+.quick-access-nav {
+  display: none;
+}
